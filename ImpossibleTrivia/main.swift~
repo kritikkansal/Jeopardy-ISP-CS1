@@ -1,0 +1,135 @@
+var score = 0
+
+print("Easy or Hard")
+let level = readLine()
+if level == "Easy"{
+    print("you chose Easy level")
+
+//all easy question
+
+
+    let Easy  =  Int.random(in: 0..<10) 
+
+    switch 1    {
+    case 0...4:
+        print("This president was shamed by the public by having shanty towns named after him." )
+        let input1 = readLine()
+        if input1 == "herbert hoover"                   {
+            print("correct")
+            score += 1
+        }else{
+            print("wrong")
+        }
+        
+
+    case 5...10:
+        print("16th President of the United States of America.")
+        let input2 = readLine() 
+        if input2 == "abraham lincoln" {
+            print("correct")
+            score += 1
+        }else{
+            print("wrong")
+        }
+        
+
+    default:
+        print("")
+    }
+
+    switch 2    {
+    case 0...4:
+        print("This man invented Facebook")
+        let input1 = readLine()
+        if input1 == "mark zuckerberg"                  {
+            print("correct")
+            score += 1
+        }else{
+            print("wrong")
+        }
+        
+
+    case 5...10:
+        print("This man invented Microsoft")
+        let input2 = readLine() 
+        if input2 == "Bill Gates     " {
+            print("correct")
+            score += 1
+        }else{
+            print("wrong")
+        }
+        
+
+    default:
+        print("")
+    }
+
+
+}else {
+
+    //vel == "Hard"
+
+
+
+
+let Hard  =  Int.random(in: 11..<20)
+
+switch 4    {
+case 11...15:
+    print("None")
+    let input1 = readLine()
+    if input1 == "herbert hoover"                   {
+        print("correct")
+        score += 1
+    }else{
+        print("wrong")
+    }
+    
+
+case 16...20:
+    print("None2")
+    let input2 = readLine() 
+    if input2 == "abraham lincoln" {
+        print("correct")
+        score += 1
+    }else{
+        print("wrong")
+    }
+    
+
+default:
+    print("")
+}
+
+switch 5    {
+case 11...15:
+    print("None3")
+    let input1 = readLine()
+    if input1 == "mark zuckerberg"                  {
+        print("correct")
+        score += 1
+    }else{
+        print("wrong")
+    }
+    
+
+case 16...20:
+    print("None44")
+    let input2 = readLine() 
+    if input2 == "Bill Gates     " {
+        print("correct")
+        score += 1
+    }else{
+        print("wrong")
+    }
+    
+
+default:
+    print("")
+}
+
+}
+
+print("Your score =", score)
+print("Thank you for playing ImpossibleTrivia, Nerd!")
+print("Have a good day!")
