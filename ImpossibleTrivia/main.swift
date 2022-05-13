@@ -1,70 +1,73 @@
+// for spacing
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
 
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
-print("")
+// this is the score counter
 
 var score = 0
 
+ // introduction / level select
 print("Hello, Welcome to ImpossibleTrivia!")
 print("")
 print("When playing ImpossibleTrivia the game will ask you 10 questions based off the difficulty you choose.")
@@ -79,6 +82,7 @@ print("Choose your level")
 print("")
 print("")
 
+//lets the computer read the 
 let input0 = readLine()
 if input0 == "easy" {
 
@@ -97,6 +101,7 @@ if input0 == "easy" {
     print("")
     print("")
 
+    //this is the easy set of the code and allows the computer to randomly select one of the two easy sets
     let EasySetSelector = Int.random(in: 0..<10)
 
     switch EasySetSelector {
@@ -126,6 +131,7 @@ if input0 == "easy" {
     print("")
 
 
+    //this is the hard question set of the code and allows the computer to randomly select one of the two hard sets
     let HardSetSelector = Int.random(in: 0..<10)
 
     switch HardSetSelector {
@@ -145,7 +151,7 @@ if input0 == "easy" {
     }
 }
 
-
+// easy set 1 questions
 func Easy() {
     print("")
     print("")
@@ -315,6 +321,8 @@ print("")
 
 }
 
+// easy question set 2
+
 func Easy2() {
 
     print("")
@@ -480,6 +488,8 @@ print("")
         }
 
 }
+
+//easy question set 1
 
 func Hard(){
 
@@ -651,7 +661,8 @@ func Hard(){
 
     
 }
-    
+
+//hard question set 2
 func Hard2(){
 
     print("")
@@ -824,7 +835,7 @@ func Hard2(){
 
 }
 
-
+//ending credits and the total score
 print("")
 print("")
 print("")
@@ -842,11 +853,10 @@ print("")
 print("")
 print("")
 print("")
-print("This game was made by Gigachad Ben Nguyen, Kurvy Kritik Kansal, and The Mystical John Makrocki.")
+print("This game was made by Gigachad Ben Nguyen, The Hunk Kritik Kansal, and The Mystical John Makrocki.")
 print("")
 print("Be sure to run the game again and go for a 10/10!")
 print("")
-print("Thanks for playing, NERD!")
 print("")
 print("Have a good day!")
 print("")
